@@ -25,4 +25,48 @@ public class CentroSalud {
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public int getidentificador(){
+		return identificador;
+	}
+	
+	public String getnombre(){
+		return nombre;
+	}
+	public String getdomicilio(){
+		return domicilio;
+	}
+	public int getcodigoPostal(){
+		return codigoPostal;
+	}
+	
+	
+	public void setindentificador(int identificador){
+		this.identificador = identificador;
+	}
+	public void setnombre(String nombre){
+		this.nombre = nombre;
+	}
+	public void setdomicilio(String domicilio){
+		this.domicilio = domicilio;
+	}
+	public void setcodigoPostal(int codigoPostal){
+		this.codigoPostal = codigoPostal;
+	}
+	
+	
+	
+	
+	
+	
 }

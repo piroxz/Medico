@@ -6,26 +6,34 @@ public abstract class Medico {
 	protected int edad;
 	protected String sexo;
 	protected double horas;
-	protected double salarioHoras;
+	protected double salarioHora;
 	
 	public Medico(){
 		nombre = "roberto";
 		edad = 23;
 		sexo = "Varon";
 		horas = 40;
-		salarioHoras = 12;
+		salarioHora = 12;
 	}
-	public Medico(String nombre,int edad,String sexo,double horas,double salarioHoras){
+	public Medico(String nombre,int edad,String sexo,double horas,double salarioHora){
 		this.nombre = nombre;
 		this.edad = edad;
 		this.sexo = sexo;
 		this.horas = horas;
-		this.salarioHoras = salarioHoras;
+		this.salarioHora = salarioHora;
 	}
 	
+	
+	
+	
+	
+	abstract void calcularSalario(double horas , double salarioHora);
+		
+	public void montrarDatosMedico(){
+		System.out.println("los datos de : "+this.getClass().getSimpleName()+nombre + edad + sexo + horas + salarioHora + calcularSalario);
+		
+	}
 
 	
-	public abstract double calcularSalario(double horas , double salarioHoras);
-	
-	
 }
+	
