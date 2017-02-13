@@ -26,8 +26,11 @@ public abstract class Medico {
 	
 	
 	
+	public abstract double calcularSalario(double horas , double salarioHora);
 	
-	abstract void calcularSalario(double horas , double salarioHora);
+	public double calcularSalario(){
+		return 0;
+	}
 		
 	public void montrarDatosMedico(){
 		System.out.println("los datos de : "+this.getClass().getSimpleName()+nombre + edad + sexo + horas + salarioHora + calcularSalario);

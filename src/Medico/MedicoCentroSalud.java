@@ -13,7 +13,7 @@ public class MedicoCentroSalud extends Medico{
 		
 	}
 	
-@Override
+	@Override
 	public double calcularSalario(double horas,double salarioHoras) {
 		
 		double salario = horas*salarioHoras;
