@@ -32,8 +32,9 @@ public abstract class Medico {
 		return 0;
 	}
 		
-	public void montrarDatosMedico(){
-		System.out.println("los datos de : "+this.getClass().getSimpleName()+nombre + edad + sexo + horas + salarioHora + calcularSalario);
+	public void mostrarDatosMedico(){
+		System.out.println("los datos de : "
+	+this.getClass().getSimpleName()+nombre + edad + sexo + horas + salarioHora );
 		
 	}
 

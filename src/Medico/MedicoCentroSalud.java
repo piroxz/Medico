@@ -1,16 +1,18 @@
 package Medico;
 
 public class MedicoCentroSalud extends Medico{
-
+	protected CentroSalud  centroSalud;
 	public MedicoCentroSalud(){
 		super();
+		centroSalud = new CentroSalud();
 	
 	}
 
 
-	
+	@Override
 	public void mostrarDatos(){
-		
+			super.mostrarDatosMedico();
+			centroSalud.
 	}
 	
 	@Override

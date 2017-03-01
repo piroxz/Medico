@@ -16,7 +16,9 @@ public class CentroSalud {
 	}
 	
 	
-	
+	public void mostrarDatos(){
+		System.out.println("Los datosl centro son :\nidentificador"+identificador+"\nnombre"+nombre+"\ndomicilio"+domicilio+"\ncodigo Postal"+codigoPostal);
+	}
 	
 	
 	
